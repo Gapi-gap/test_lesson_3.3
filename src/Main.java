@@ -8,12 +8,12 @@ public class Main {
         int result = service.calculate(price, percent, LifeTime); // должно получиться 500
         System.out.println(result);
 
-         LifeTime = 2;
+        LifeTime = 2;
         result = service.calculate(price, percent, LifeTime); // должно получиться 500
         System.out.println(result);
 
-         LifeTime = 3;
-         result = service.calculate(price, percent, LifeTime); // должно получиться 500
+        LifeTime = 3;
+        result = service.calculate(price, percent, LifeTime); // должно получиться 500
         System.out.println(result);
     }
 }
